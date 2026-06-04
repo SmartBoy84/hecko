@@ -3,3 +3,7 @@ Cargo.lock
 todo.md
 *.html
 *.json
+
+# I use local path to restman-rs
+Cargo.toml
+
