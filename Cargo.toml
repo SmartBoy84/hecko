@@ -1,0 +1,12 @@
+[package]
+name = "hecko"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bon = "3.9.1"
+chrono = { version = "0.4.44", features = ["serde"] }
+restman-rs = { version = "0.1.0", git = "https://github.com/SmartBoy84/restman-rs", features = ["ureq"] }
+serde = { version = "1.0.228", features = ["serde_derive"] }
+thiserror = "2.0.18"
+ureq = { version = "3.3.0", features = ["brotli"] }
